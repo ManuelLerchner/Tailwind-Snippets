@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  },
+
+  "scripts": {
+    "start": "npx tailwindcss -i ./src/quote/quote.css -o ./dist/quote/quote.css --watch"
+  }
+}
